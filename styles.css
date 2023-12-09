@@ -1,0 +1,70 @@
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+.tb {
+    width: 1000px;
+    height: 500px;
+}
+.row1 {
+    background-color: #078f8f;
+    color: #8F0707;
+    :hover {
+        background-color: #f87070;
+    }
+
+}
+.row2 {
+    background-color: #f5f507;
+    color: #0707F5;
+    :hover {
+        background-color: #0a0af8;
+    }
+}
+
+.clock {
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+
+}
+
+.red {
+    border-radius: 50%;
+    background-color: red;
+    height: 25px;
+    width: 25px;
+    position: relative;
+}
+
+.dot1 {
+    left: 50%;
+}
+.dot2 {
+    top: 35%;
+}
+.dot3 {
+    top: 25%;
+    left: 90%;
+}
+.dot4 {
+    left: 50%;
+    top: 65%;
+}
+
+.arrow {
+    position: relative;
+    background-color: black;
+    width: 20px;
+    height: 150px;
+}
+.small {
+    left: 50%;
+    transform: rotate(360deg);
+    bottom: 30%;
+}
+.big {
+    left: 70%;
+    bottom: 60%;
+    transform: rotate(90deg);
+}
